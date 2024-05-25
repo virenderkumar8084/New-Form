@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: url("C:\Users\Jainp\OneDrive\Desktop\Celebal\form\public\back.jpg");
+   */
+  background: rgba(20, 20, 188, 0.356);
+
+}
+
+.main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: black;
+}
+.main h2 {
+  color: black;
+}
+.main .details {
+  color: black;
+}
+.main form,
+.main .details {
+  width: 600px;
+  border: 2px solid black;
+  margin: 15px;
+  padding: 23px;
+  text-align: center;
+}
+
+.main .details > div {
+  margin: 15px;
+  font-weight: 200;
+}
+
+.main .details > h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  color: white;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 300px;
+}
+
+input {
+  padding: 15px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+}
+
+h3 {
+  margin: 5px;
+  padding: 15px 15px 0px 15px;
+  font-weight: 300;
+}
+
+.errorMsg {
+  padding: 5px;
+  margin: 0px;
+  font-size: 11px;
+  color: rgb(4, 16, 24);
+}
